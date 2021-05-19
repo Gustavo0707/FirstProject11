@@ -1,0 +1,18 @@
+	Scanner scanner = new Scanner(System.in);
+	int number, number2, result2;
+	float number3, result, result3;
+
+        System.out.println("Type three numbers");
+        number = scanner.nextInt();
+        number2 = scanner.nextInt();
+        number3 = scanner.nextFloat();
+
+        result2 = 2 * number + number2 /2;
+        result = 3* number + number3;
+        result3 = number3 * number3 * number3;
+
+        System.out.println(result2);
+
+        System.out.println(result);
+
+        System.out.println(result3);
